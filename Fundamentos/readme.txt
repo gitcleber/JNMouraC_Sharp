@@ -1,0 +1,1 @@
+Folder for storage some basic codes of fundamentals of C#.
