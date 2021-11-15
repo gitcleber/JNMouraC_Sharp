@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Maior", "Maior\Maior.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pares", "Pares\Pares.csproj", "{ADC888B1-24CA-4D98-A633-EAD371FC3E69}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrefeituraSenso", "PrefeituraSenso\PrefeituraSenso.csproj", "{649F720B-5E26-4BEF-B9A2-597C0CB34BB7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrefeituraCenso", "PrefeituraSenso\PrefeituraCenso.csproj", "{649F720B-5E26-4BEF-B9A2-597C0CB34BB7}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Soma", "Soma\Soma.csproj", "{6FA08153-E049-48FA-8719-D6A1E88E2801}"
 EndProject
