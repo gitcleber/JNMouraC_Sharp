@@ -26,7 +26,7 @@ namespace Eleicao
             Console.Write("Digite seu Voto:");
             int voto = Convert.ToInt16(Console.ReadLine());
 
-            if ((voto >= 1)&(voto<=4))
+            if ((voto >= 1)&&(voto<=4))
             {
                 Console.WriteLine("Voto computado com sucesso");
             }
