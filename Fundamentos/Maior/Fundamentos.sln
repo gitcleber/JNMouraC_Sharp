@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pares", "..\Pares\Pares.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Soma", "..\Soma\Soma.csproj", "{A13A31A8-1AFC-4732-A4CD-C10987E6C6B7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eleicao", "..\Eleicao\Eleicao.csproj", "{B0FB9D27-DF37-4B6E-BB8B-BE7B42A4D774}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eleicao", "..\Eleicao\Eleicao.csproj", "{B0FB9D27-DF37-4B6E-BB8B-BE7B42A4D774}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrefeituraSenso", "..\PrefeituraSenso\PrefeituraSenso.csproj", "{24BEDB36-7950-4F6E-88ED-8A919C12E547}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{B0FB9D27-DF37-4B6E-BB8B-BE7B42A4D774}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B0FB9D27-DF37-4B6E-BB8B-BE7B42A4D774}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B0FB9D27-DF37-4B6E-BB8B-BE7B42A4D774}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24BEDB36-7950-4F6E-88ED-8A919C12E547}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24BEDB36-7950-4F6E-88ED-8A919C12E547}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24BEDB36-7950-4F6E-88ED-8A919C12E547}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24BEDB36-7950-4F6E-88ED-8A919C12E547}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
