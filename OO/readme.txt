@@ -1,0 +1,1 @@
+Folder for storage some basic codes for studing of Object-oriented of C#.
