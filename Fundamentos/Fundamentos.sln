@@ -13,6 +13,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrefeituraCenso", "Prefeitu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Soma", "Soma\Soma.csproj", "{6FA08153-E049-48FA-8719-D6A1E88E2801}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sorteio", "Sorteio\Sorteio.csproj", "{38188260-E261-4EB1-827C-5908CFC7453A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrdemInversa", "OrdemInversa\OrdemInversa.csproj", "{662FAB45-C77B-40D4-8ACD-9AA16E619806}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{6FA08153-E049-48FA-8719-D6A1E88E2801}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6FA08153-E049-48FA-8719-D6A1E88E2801}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6FA08153-E049-48FA-8719-D6A1E88E2801}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38188260-E261-4EB1-827C-5908CFC7453A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38188260-E261-4EB1-827C-5908CFC7453A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38188260-E261-4EB1-827C-5908CFC7453A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38188260-E261-4EB1-827C-5908CFC7453A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{662FAB45-C77B-40D4-8ACD-9AA16E619806}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{662FAB45-C77B-40D4-8ACD-9AA16E619806}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{662FAB45-C77B-40D4-8ACD-9AA16E619806}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{662FAB45-C77B-40D4-8ACD-9AA16E619806}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
