@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Jogador
 {
@@ -10,22 +6,27 @@ namespace Jogador
     {
         static void Main(string[] args)
         {
+            //exe01
+            //Crie uma classe chamada Jogador contendo os atributos nome(string), rg(string), cpf
+            //(string) e endereco(string) e:
+            //a) Crie um método construtor para essa classe inicializado os atributos para ""(vazio).
+            //b) Instancie o objeto zequinha do tipo jogador e atribua valores para seus atributos.
+            //c) Instancie o objeto mariazinha do tipo jogador e atribua valores para seus atributos.
+            //Projeto Jogador
+
             Jogador zequinha = new Jogador();
-            zequinha.CPF = "29368591855";
-            zequinha.Nome = "Zeca";
-            zequinha.Endereco = "Rua 1";
-            zequinha.RG = "1321654x";
+            zequinha.nome = "Zeca";
+            zequinha.rg = "40 428 345 23";
+            zequinha.cpf = "346 299 555 37";
+            zequinha.endereço"Rua 5";
 
             Jogador mariazinha = new Jogador();
-            mariazinha.CPF = "29368591856";
-            mariazinha.Nome = "Maria";
-            mariazinha.Endereco = "Rua 1";
-            mariazinha.RG = "13216540";
+            zequinha.nome = "Maria";
+            zequinha.rg = "30 321 724 22";
+            zequinha.cpf = "987 654 321 00";
+            zequinha.endereço"Av Sete";
 
-            Console.WriteLine("Jogador Zequinha=> Nome: {0}", zequinha.Nome);
-            Console.WriteLine("Jogador Mariazinha=> Nome: {0}", mariazinha.Nome);
 
-            Console.ReadLine();
         }
     }
 }
