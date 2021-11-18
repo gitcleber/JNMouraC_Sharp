@@ -1,10 +1,11 @@
 ﻿using System;
 using System.Linq;
 
+
 namespace Sorteio
 {
     class Program
-    {
+    {        
         /*Desenvolva um programa capaz de realizar um sorteio utilizando o intervalo de números de 1 a 60. 
         O programa deve sortear 6 números, sem repetições, dentro deste intervalo e exibi-los para o usuário.
         Projeto: Sorteio
@@ -23,7 +24,7 @@ namespace Sorteio
             {
                 do
                 {
-                    num = rnd.Next(0, 7);//sorteia um numero.
+                    num = rnd.Next(0, numSorteados.Length+1);//sorteia um numero.
                     if (numSorteados.Contains(num))//verifica se número sorteado ja existe no vetor
                     {
                         qtdeRepetidos++;
@@ -45,9 +46,9 @@ namespace Sorteio
                 numSorteados[i] = i;
             }
             // vamos embaralhar o ArrayList
-            for (int i = 0; i < 6; i++)
+            for (int i = 0; i < numSorteados.Length; i++)
             {
-                int a = rnd.Next(6);
+                int a = rnd.Next(numSorteados.Length);
                 int temp = numSorteados[i];
                 numSorteados[i] = numSorteados[a];
                 numSorteados[a] = temp;
