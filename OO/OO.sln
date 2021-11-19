@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31829.152
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conceitos", "Conceitos\Conceitos.csproj", "{3FF76964-A1C7-471B-9862-CAF6ACB2AE95}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Carros.cs", "Conceitos\Carros.cs.csproj", "{3FF76964-A1C7-471B-9862-CAF6ACB2AE95}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jogador", "Jogador\Jogador.csproj", "{E0601C67-3A87-4A74-9FAF-4D6DA523B91A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jogador", "Jogador\Jogador.csproj", "{E0601C67-3A87-4A74-9FAF-4D6DA523B91A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Porta", "Porta\Porta.csproj", "{95F25AD7-EE01-45BD-BCDD-DFEDDCBC5142}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Porta", "Porta\Porta.csproj", "{95F25AD7-EE01-45BD-BCDD-DFEDDCBC5142}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
