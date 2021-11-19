@@ -23,18 +23,12 @@ namespace Porta
 
         public void Abrir()
         {
-            if(Aberta)
-                Console.WriteLine("A porta já está Aberta.");            
-            else
-                this.Aberta = true;
-
+            this.Aberta = true;
         }
+
         public void Fechar()
         {
-            if(Aberta)
-                this.Aberta = false;
-            else
-                Console.WriteLine("A porta já está fechada.");
+            this.Aberta = false;         
         }
         public void Pintar(string cor)
         {
