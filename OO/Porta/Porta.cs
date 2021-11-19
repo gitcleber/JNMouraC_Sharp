@@ -19,14 +19,15 @@ namespace Porta
     class Porta
     {
         public bool Aberta { get; set; }
-        public string Cor { get; set; }
+        public string Cor { get; private set; }
 
         public void Abrir()
         {
-            if(!Aberta)
-                this.Aberta = true;
+            if(Aberta)
+                Console.WriteLine("A porta já está Aberta.");            
             else
-                Console.WriteLine("A porta já está Aberta.");
+                this.Aberta = true;
+
         }
         public void Fechar()
         {
