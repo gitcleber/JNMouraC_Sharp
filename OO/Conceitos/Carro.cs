@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Conceitos
+namespace Carros
 {
     class Carro
     {
@@ -22,12 +22,10 @@ namespace Conceitos
          * 
          */
 
-        string nome;
-        //int anoFabricacao;
-        //double velocidade;
-        public string Nome { get; set; } //propriedade (encapsular o atributo)
-        public int AnoFabricacao { get; set; }
-        public double Velocidade { get; }
+        
+        public string Nome { get; private set; } //propriedade (encapsular o atributo)
+        public int AnoFabricacao { get; private set; }
+        public double Velocidade { get; private set; }
 
 
         /*
@@ -45,27 +43,40 @@ namespace Conceitos
 
         public Carro() // função => método Construtor.
         {
+            Velocidade = 0;
+        }
 
+        public void acelerar()
+        {
+            Velocidade++;
+            if (Velocidade > 100)
+                Velocidade = 100;
+        }
+        public void frear()
+        {
+            Velocidade--;
+            if (Velocidade < 0)
+                Velocidade = 0;
         }
 
         public Carro(string nome) // função => método Construtor.
         {
             this.Nome = nome;
+            Velocidade = 0;
         }
 
         public Carro(string nome, int anoFabricacao) // função => método Construtor.
         {
             this.Nome = nome;
             this.AnoFabricacao = anoFabricacao;
+            Velocidade = 0;
         }
 
         public Carro(int anoFabricacao) // função => método Construtor.
         {
             this.AnoFabricacao = anoFabricacao;
+            Velocidade = 0;
         }
-
-        
-
         
         //public void setNome(string nome) //função => método.
         //{
