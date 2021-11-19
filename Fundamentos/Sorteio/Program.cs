@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Linq;
+using System.Collections;
+using System.Collections.Generic;
 
 
 namespace Sorteio
@@ -19,7 +21,7 @@ namespace Sorteio
             int[] numSorteados = new int[6];
             int num, qtdeRepetidos = 0;
             Random rnd = new Random();
-
+/*
             for (int i = 0; i < numSorteados.Length; i++)
             {
                 do
@@ -39,7 +41,7 @@ namespace Sorteio
             }
 
             Console.WriteLine($"Repetições: {qtdeRepetidos  }");
-
+            */
             //Gerando sorteio versão 2
             for (int i = 0; i < numSorteados.Length; i++)//criando um array com os numeros do range desejado
             {
@@ -57,10 +59,10 @@ namespace Sorteio
             foreach (int e in numSorteados)//imprime os numeros sorteados
                 Console.WriteLine(e);
 
-            Array.Sort(numSorteados);//organiza em ordem crescente
+            //Array.Sort(numSorteados);//organiza em ordem crescente
 
-            foreach (int e in numSorteados)//imprime em ordem crescente
-                Console.WriteLine(e);
+            //foreach (int e in numSorteados)//imprime em ordem crescente
+            //    Console.WriteLine(e);
 
             Console.ReadLine();
 
