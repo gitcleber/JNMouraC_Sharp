@@ -18,13 +18,13 @@ namespace Jogador
             zequinha.nome = "Zeca";
             zequinha.rg = "40 428 345 23";
             zequinha.cpf = "346 299 555 37";
-            zequinha.endereço"Rua 5";
+            zequinha.endereco="Rua 5";
 
             Jogador mariazinha = new Jogador();
             zequinha.nome = "Maria";
             zequinha.rg = "30 321 724 22";
             zequinha.cpf = "987 654 321 00";
-            zequinha.endereço"Av Sete";
+            zequinha.endereco="Av Sete";
 
 
         }
